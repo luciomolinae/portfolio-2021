@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: $Portfolio-Palette-2-hex;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header-video video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .85;
+  }
+  
+  .header-content {
+    z-index: 2;
+  }
+
+  h1{
+      font-family: 'Jost', sans-serif;
+      font-size: 5em;
+  }
+
+  h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+  }
+
+  p{
+      font-family: 'Roboto', sans-serifs;
+      font-size: 1em;
+
+  }
+
+  .p-header{
+    font-family: 'Roboto', sans-serifs;
+    font-size: 1.2em;
+
+  }
+
+  a{
+      text-decoration: none;
+      color: #000;
+  }
+
+  a.list-group-item.list-group-item-action.list-group-item-info{
+    text-align: center;
+  }
+
+  
+
+  main#main-section {
+    margin-top: 50px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    margin-bottom: 200px;    
+}
+
+hr{
+  border: 2px inset #eee; height: 1px; width: 100%;
+}
+
+.index-sobre p{
+  font-family: 'Roboto', sans-serifs;
+}
+
+h3.sobre-h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 2em;
+
+}
+.sobre-mi{
+  margin-top: 150px;
+
+}
+
+
+  
+  .my_card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    transition-duration: 0.4s;
+}
+
+
+footer{
+  background-color: $Portfolio-Palette-3-hex;
+  p{
+    font-size: 1em;
+  }
+}
+
+  
+  
+  
+  
+  @media (max-width: 960px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+    .my_card{
+      margin-bottom: 100px;
+    }
+  }
